@@ -1,0 +1,131 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bright Uchenna MADU - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Bright MADU."/>
+<meta charset="UTF-8"> 
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/Style.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="{% static 'images/passport.jpeg' %}" alt="Bright Uchenna MADU" />
+		</div>
+		
+		<div id="name">
+			<h1 class="quickFade delayTwo">Bright Uchenna MADU</h1>
+			<h2 class="quickFade delayThree">Backend Web Developer</h2>
+		</div>
+		
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>E-mail: <a href="mailto:brightmadu12@gmail.com" target="_blank">brightmadu12@gmail.com</a></li>
+				<li>LinkedIn: <a href="https://www.linkedin.com/in/bright-madu-91746810a/">@bright-madu</a></li>
+				<li>Phone Number: 08168945456</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Profile Summary</h1>
+				</div>
+				
+				<div class="sectionContent">
+				<p>Tech Savvy with an excellent understanding of modern technology and over four years combined pre-degree experience in administration in the non-profit, academic and private sector. Professionally trained in business ethics, effective communication, strategic leadership and management principles.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>DATA ANALYST</h2>
+					<p class="subDetails">Living Faith Church Worldwide</p>
+					<p class="subDetails">February 2021 - Present</p>
+					<p><ul >
+						<li>Collating and Interpreting data of the organization</li>
+						<li>Analyze, identify trends and report result to relevant stakeholders</li></p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Python Programmimng Language</li>
+					<li>Microsoft Packages(Intermediate)</li>
+					<li>Data Analysis</li>
+					<li>Project Management</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Certifications</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<ul class="Certification">
+					<li>Microsoft Certified  DP- 900 ⭐ Azure Data Fundamentals - 2021 </li>
+					<li>Data Analyst Learning Path │ LinkedIn Learning - 2021 </li>
+					<li>Project Management Course Path │ LinkedIn Learning - 2020</li>
+					<li>Master In-Demand Professional Skills Course Path │LinkedIn Learning - 2020</li>
+					<li>IBM Professional Skills │IBM - 2020</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+		
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+			
+			<div class="sectionContent">
+				<article>
+					<h2>Federal University of Technology, Owerri</h2>
+					<p class="subDetails">Bachelor of Technology</p><p>2018</p>
+					
+				</article>
+				
+			</div>
+			<div class="clear"></div>
+		</section>
+	</div>
+		<div><h2><a href="{% url 'contact' %}">CONTACT ME</a></h2></div>
+		<div><h2>Sponsors</h2></div>
+	<div><img
+		src="{% static 'images/headshot.jpeg '%}"
+		alt="HNG"
+		width="60"
+		height="60"
+	   /><a href="https://hng.tech" target="_blank">HNG, Lagos</a>
+	</div>
+</div>
+</body>
+</html>
